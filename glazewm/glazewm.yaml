@@ -204,8 +204,8 @@ keybindings:
   #
   #  INFO: I'll be using this for powertoys powertoys run command
   #
-  # - commands: ['wm-cycle-focus']
-  #   bindings: ['alt+space']
+  - commands: ['wm-cycle-focus']
+    bindings: ['alt+s']
 
   # Change the focused window to be floating.
   - commands: ['toggle-floating --centered']
