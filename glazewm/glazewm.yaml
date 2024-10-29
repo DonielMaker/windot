@@ -129,7 +129,7 @@ window_rules:
 binding_modes:
   # When enabled, the focused window can be resized via arrow keys or HJKL.
   #
-  #  INFO: disabled because it seems so suck ass
+  #  INFO: disabled because it seems to suck ass
   #
   # - name: 'resize'
   #   keybindings:
@@ -186,7 +186,7 @@ keybindings:
   # As an alternative to the resize keybindings above, resize mode enables
   # resizing via arrow keys or HJKL. The binding mode is defined above with
   # the name 'resize'.
-  #  INFO: disabled because it seems so suck ass
+  #  INFO: disabled because it seems to suck ass
   #
   # - commands: ['wm-enable-binding-mode --name resize']
   #   bindings: ['alt+r']
@@ -201,9 +201,6 @@ keybindings:
     bindings: ['alt+v']
 
   # Change focus from tiling windows -> floating -> fullscreen.
-  #
-  #  INFO: I'll be using this for powertoys powertoys run command
-  #
   - commands: ['wm-cycle-focus']
     bindings: ['alt+s']
 
