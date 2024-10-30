@@ -148,10 +148,10 @@ binding_modes:
 
   # When enabled, all keybindings are disabled except for alt+shift+p which
   # returns to default keybindings.
-  - name: 'pause'
-    keybindings:
-      - commands: ['wm-disable-binding-mode --name pause']
-        bindings: ['alt+shift+p']
+  # - name: 'pause'
+  #   keybindings:
+  #     - commands: ['wm-disable-binding-mode --name pause']
+  #       bindings: ['alt+shift+p']
 
 keybindings:
   # Shift focus in a given direction.
@@ -193,13 +193,13 @@ keybindings:
   #   bindings: ['alt+r']
 
   # Disables all keybindings until alt+shift+p is pressed again.
-  - commands: ['wm-enable-binding-mode --name pause']
-    bindings: ['alt+shift+p']
+  # - commands: ['wm-enable-binding-mode --name pause']
+  #   bindings: ['alt+shift+p']
 
   # Change tiling direction. This determines where new tiling windows will
   # be inserted.
-  - commands: ['toggle-tiling-direction']
-    bindings: ['alt+v']
+  # - commands: ['toggle-tiling-direction']
+  #   bindings: ['alt+v']
 
   # Change focus from tiling windows -> floating -> fullscreen.
   - commands: ['wm-cycle-focus']
@@ -207,15 +207,15 @@ keybindings:
 
   # Change the focused window to be floating.
   - commands: ['toggle-floating --centered']
-    bindings: ['alt+shift+space']
+    bindings: ['alt+/']
 
   # Change the focused window to be tiling.
   - commands: ['toggle-tiling']
-    bindings: ['alt+t']
+    bindings: ['alt+,']
 
   # Change the focused window to be fullscreen.
   - commands: ['toggle-fullscreen']
-    bindings: ['alt+f']
+    bindings: ['alt+.']
 
   # Minimize focused window.
   - commands: ['toggle-minimized']
@@ -243,8 +243,6 @@ keybindings:
   - commands: ['shell-exec %ProgramFiles%/BraveSoftware/Brave-Browser/Application/brave.exe']
     bindings: ['alt+b']
 
-  # Focus the next/previous workspace defined in `workspaces` config.
-  #
   #  INFO: currently not using workspace so this is commented out
   #
   # - commands: ['focus --next-workspace']
