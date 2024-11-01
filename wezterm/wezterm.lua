@@ -38,6 +38,9 @@ return {
     leader = { key = 'q', mods = 'ALT', timeout_milliseconds = 2000},
     keys = {
         { key = '.', mods = 'LEADER', action = act.SpawnTab('CurrentPaneDomain') },
+        { key = '/', mods = 'LEADER', action = act.CloseCurrentPane{ confirm = false} },
+        { key = '-', mods = 'LEADER', action = act.CloseCurrentPane{ confirm = false} },
+
         { key = '1', mods = 'LEADER', action = act.ActivateTab(0) },
         { key = '2', mods = 'LEADER', action = act.ActivateTab(1) },
         { key = '3', mods = 'LEADER', action = act.ActivateTab(2) },
@@ -57,7 +60,6 @@ return {
         -- Pane Configuration
         -- { key = ',', mods = 'LEADER', action = act.SplitHorizontal{ domain =  'CurrentPaneDomain' } },
         -- { key = '.', mods = 'LEADER', action = act.SplitVertical{ domain =  'CurrentPaneDomain' } },
-        { key = '/', mods = 'LEADER', action = act.CloseCurrentPane{ confirm = false} },
         --
         -- { key = 'h', mods = 'LEADER', action = act.ActivatePaneDirection('Left') },
         -- { key = 'j', mods = 'LEADER', action = act.ActivatePaneDirection('Down') },
