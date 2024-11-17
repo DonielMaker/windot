@@ -231,7 +231,7 @@ keybindings:
   # - commands: ['shell-exec %ProgramFiles%/WezTerm/wezterm-gui.exe']
   #   bindings: ['alt+enter']
 
-  - commands: ['shell-exec %ProgramFiles%/Alacritty/Alacritty.exe --config-file C:/Users/Danie/.config/alacritty/alacritty.toml']
+  - commands: ['shell-exec %ProgramFiles%/Alacritty/Alacritty.exe']
     bindings: ['alt+enter']
 
   - commands: ['shell-exec %ProgramFiles%/BraveSoftware/Brave-Browser/Application/brave.exe']
