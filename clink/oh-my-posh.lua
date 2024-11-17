@@ -1,1 +1,1 @@
-load(io.popen('oh-my-posh init cmd --config C:/Users/donielmaker/.config/oh-my-posh/oh-my-posh.json'):read("*a"))()
+load(io.popen('oh-my-posh init cmd --config %HOME%/.config/oh-my-posh/oh-my-posh.json'):read("*a"))()
