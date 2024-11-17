@@ -234,7 +234,7 @@ keybindings:
   - commands: ['shell-exec %ProgramFiles%/Alacritty/Alacritty.exe']
     bindings: ['alt+enter']
 
-  - commands: ['shell-exec C:\Program Files\Mozilla Firefox\firefox.exe']
+  - commands: ['shell-exec %ProgramFiles%/Mozilla Firefox/firefox.exe']
     bindings: ['alt+b']
 
   #  INFO: currently not using workspace so this is commented out
