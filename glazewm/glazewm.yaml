@@ -174,4 +174,5 @@ keybindings:
     bindings: ['alt+b']
 
 workspaces:
+  - name: "1"
 binding_modes:
