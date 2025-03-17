@@ -1,7 +1,10 @@
+[general]
+working_directory = "C:/Users/donielmaker/"
+
 [window]
 opacity = 0.8
 blur = true
-decorations = "None"
+# decorations = "None"
 padding = { x = 10, y = 10 }
 
 [font]
